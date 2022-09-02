@@ -1,0 +1,57 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  "I I I"
+  "M I3 I4"
+  "I5 I5 I5"
+  ;
+  gap: 5px;
+}
+.item1{
+  grid-area: I ;
+}
+.menu{
+  grid-area: M ;
+  margin-right:10px ;
+}
+ul{
+  width: 100px;
+  margin: auto;
+}
+ul li{
+  background-color: aqua;
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+}
+.item3{
+  grid-area: I3 ;
+}
+.item4{
+  grid-area: I4 ;
+  padding: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+.item5{
+  grid-area: I5 ;
+  padding: 10px;
+  background-color: aqua;
+}
+
+.products{
+  display: flex;
+  background-color: burlywood;
+  padding:10px ;
+}
+/**
+> = enfants directes
+* = nimporte quoi
+
+> * = tous les enfants directes
+*/
+.products > *{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}

@@ -1,0 +1,39 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+}
+.rect{
+    display: inline;
+    padding: 1px;
+    background-color: blueviolet;
+    color: black;
+}
+.enfant1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.enfant2{
+    position: absolute;
+
+    bottom: 90%;
+    right: 75%;
+}
+
+
+.enfant3{
+    position: absolute;
+    left: 30%;
+    bottom: 90%;
+
+}
+
+.enfant4{
+    position: absolute;
+    right: 50%;
+    top: 0%;
+
+}

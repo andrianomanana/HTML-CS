@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="item1"> <!----HEADER-->
+            <!----FLEX AVEC ARTICLES-->
+            <div class="products">
+                <div order="0" class="child1">
+                  Article 1 
+     
+                </div>
+                <div order ="1" class="child2">
+                  Article 2
+          
+                </div>
+                <div order = "2" class="child3">
+                  Article 3
+    
+                </div> 
+               </div>
+
+        </div>
+        <div class="menu">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+              </ul>
+        </div>
+        <div class="item3"> 
+          <!--ARTICLE 1-->
+          <div class="Article Active">
+            <h1>The City</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+          </div>
+          <!--ARTICLE 2-->
+          <div class="Article">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eligendi quasi dolorum quod. Neque quisquam molestiae placeat fugiat exercitationem illum voluptatibus officia praesentium impedit labore..</p>
+          </div>
+
+          <!--ARTICLE 3-->
+          <div class="Article">
+            <h1>lorem</h1>
+            <p> dolorum quod. Neque quisquam molestiae placeat fugiat exercitationem illum voluptatibus officia praesentium impedit labore..</p>
+          </div>
+
+        </div>  
+        <div class="item4 aside">     
+            <h2>What?</h2>
+            <p>Chania is a city on the island of Crete.</p>
+            <h2>Where?</h2>
+            <p>Crete is a Greek island in the Mediterranean Sea.</p>
+            <h2>How?</h2>
+            <p>You can reach Chania airport from all over Europe.</p>
+        </div>
+        <div class="item5">Resize the browser window to see how the content respond to the resizing.</div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

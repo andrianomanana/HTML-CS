@@ -1,0 +1,40 @@
+header{
+    color: blue;
+    font-family: fantasy;
+}
+
+main{
+    color: red;
+    width: 70%;
+}
+
+footer{
+    background-color: grey;
+    height: 100px;
+
+
+}
+
+#titrevert{
+    color: green;
+}
+
+#pinktitle{
+    color: pink;
+}
+
+#secondarticle{
+    font-family: monospace;
+}
+
+#firstarticle{
+    font-size: 8px;
+}
+
+p{
+    border: 2px solid yellow;
+
+    margin-bottom: 100px;
+
+    padding-left: 80px;
+}

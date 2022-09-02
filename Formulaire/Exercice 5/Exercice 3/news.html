@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="">
+
+
+        <label for="nom"> Entrez votre nom</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="prenom">Entrez votre prénom</label>
+        <input type="Text" id="prenom" name="prenom"><br><br>
+
+        <label for="documentation"> Je désire recevoir une documentationtion</label>
+        <input type="checkbox" id="documentation" name="documentation"><br><br>
+        
+        <strong>
+            <label for="pays">Choisir un pays</label>
+        </strong>
+        <select name="selectionPays" id="selectionPays" size="3">
+            <option value="Espagne">Espagne</option>
+            <option value="France">France</option>
+            <option value="Italie">Italie</option>
+        </select>
+
+        <p>Sexe</p>
+
+        <label for="Masculin">Masculin</label>
+        <input type="radio" id="Masculin" name="Sexe">
+
+        <label for="Féminin">Feminin</label>
+        <input type="radio" id="Féminin" name="Sexe">
+
+        <input type="radio" id="Autre" name="Sexe">
+        <label for="Autre">Autre</label>
+
+        <p>Langue(s) parlée(s)</p>
+
+        <input type="checkbox" id="Francais1" name="Langues1">
+        <label for="Francais1">Francais</label>
+
+        <input type="checkbox" id="Anglais1" name="Langues1">
+        <label for="Anglais1">Anglais</label>
+
+        <input type="checkbox" id="Chinois1" name="Langues1">
+        <label for="Chinois1">Chinois</label><br><br>
+
+        <label for="questions">Vous pouvez nous faire parvenir vos questions</label><br>
+        <textarea name="questions" id="questions" cols="70" rows="10"></textarea><br><br>
+        
+        <input type="submit" value="envoyer">
+        <input type="reset" value="effacer">
+
+       
+
+    </form>
+
+</body>
+</html>

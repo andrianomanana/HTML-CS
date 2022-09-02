@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    font-size: 16px;
+}
+/*
+    Display : inline on peut pas fixer
+    width et height
+    Display : block on peut fixer
+    width et height
+**/
+div{
+    /*display: inline;/*PREND LA TAILLE DU CONTENUE**/
+    /*display: block;/*PREND LA TAILLE MAXIMALE
+     OU BIEN LA TAILLE FIXE PAR WIDTH ET HEIGH **/
+    /*display: inline-block;
+    Fusion du inline et block càd on peut prendre
+    la taille du contenue et on peut changer aussi
+    width et height */
+
+    display: inline-block;
+
+    
+}
+.A{
+    background-color: rgb(255, 131, 131);
+}
+.B{
+    background-color: rgb(119, 255, 119);
+}
+/*
+p{
+ 
+    text-align: center; /**SEULE CONDITION:
+    <p>
+        <img></img>
+        <video></video>
+        ...
+    </p>
+  
+}  **/
